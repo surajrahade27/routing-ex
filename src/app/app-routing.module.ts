@@ -16,7 +16,8 @@ const routes: Routes =
 							{path:"login" ,component:LoginComponent},
 							{path:"login/:forgot_password" ,component:ForgotPasswordComponent},
 							{path:"logout" ,component:LogoutComponent},
-							{path:"signup" ,component:SignupComponent}
+							{path:"signup" ,component:SignupComponent},
+						{ path: 'student', loadChildren: () => import('./student/student.module').then(m => m.StudentModule) }
 							
 						];
 
