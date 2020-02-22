@@ -10,6 +10,7 @@ import { SignoutComponent } from './signout/signout.component';
 import { HomeComponent } from './home/home.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { SignupComponent } from './signup/signup.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SignupComponent } from './signup/signup.component';
     SignoutComponent,
     HomeComponent,
     ForgotPasswordComponent,
-    SignupComponent
+    SignupComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
